@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    uses: novami/MinorSwiftCore/.github/workflows/lint.yml@0.1.0
+
+  test:
+    uses: novami/MinorSwiftCore/.github/workflows/app-test.yml@0.1.0
+    with:
+      scheme: MinorSwiftStarter

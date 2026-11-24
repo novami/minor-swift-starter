@@ -1,0 +1,3 @@
+// Single source of truth. Release tag must be equal (major.minor.patch, no prefix).
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = $(MARKETING_VERSION)
