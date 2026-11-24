@@ -1,7 +1,7 @@
 // App identity – the only file to edit per app (scripts/rename.sh fills it in).
 APP_NAME = MinorSwiftStarter
 APP_BUNDLE_IDENTIFIER = com.example.minorswiftstarter
-UPDATE_REPOSITORY = novami/MinorSwiftStarter
+UPDATE_REPOSITORY = novami/minor-swift-starter
 APP_CATEGORY = public.app-category.developer-tools
 
 // Apple Developer Team ID (not secret). Required for Release builds.

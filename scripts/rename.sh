@@ -1,7 +1,7 @@
 #!/bin/zsh
 # Turns the template into a concrete app.
 # Usage: scripts/rename.sh <AppName> <bundle.id> <owner/repo>
-# Example: scripts/rename.sh MinorDLNA cz.example.minordlna novami/MinorDLNA
+# Example: scripts/rename.sh MinorDLNA cz.example.minordlna novami/minor-dlna
 set -euo pipefail
 
 [[ $# -eq 3 ]] || { echo "Usage: $0 <AppName> <bundle.id> <owner/repo>"; exit 1; }

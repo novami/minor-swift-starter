@@ -13,10 +13,10 @@ permissions:
 
 jobs:
   lint:
-    uses: novami/MinorSwiftCore/.github/workflows/lint.yml@0.1.0
+    uses: novami/minor-swift-core/.github/workflows/lint.yml@0.1.0
 
   test:
-    uses: novami/MinorSwiftCore/.github/workflows/app-test.yml@0.1.0
+    uses: novami/minor-swift-core/.github/workflows/app-test.yml@0.1.0
     with:
       scheme: MinorSwiftStarter
 
@@ -24,7 +24,7 @@ jobs:
     needs: [lint, test]
     permissions:
       contents: write
-    uses: novami/MinorSwiftCore/.github/workflows/app-release.yml@0.1.0
+    uses: novami/minor-swift-core/.github/workflows/app-release.yml@0.1.0
     with:
       scheme: MinorSwiftStarter
     secrets: inherit

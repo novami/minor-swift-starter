@@ -1,12 +1,12 @@
 # MinorSwiftStarter
 
 Template for Minor macOS apps: SwiftUI + AppKit, Swift 6 strict concurrency, macOS 26+, arm64,
-Developer ID + notarization, updates from GitHub Releases via [MinorSwiftCore](https://github.com/novami/MinorSwiftCore).
+Developer ID + notarization, updates from GitHub Releases via [MinorSwiftCore](https://github.com/novami/minor-swift-core).
 
 ## New app from the template
 
 1. GitHub → **Use this template** → new public repository (e.g. `MinorDLNA`), clone it.
-2. `scripts/rename.sh MinorDLNA cz.example.minordlna novami/MinorDLNA`
+2. `scripts/rename.sh MinorDLNA cz.example.minordlna novami/minor-dlna`
 3. In `Config/App.xcconfig` set `DEVELOPMENT_TEAM` and `APP_CATEGORY`; add images to `AppIcon`.
 4. Add repository secrets (see below), protect `main` (below), commit, push.
 

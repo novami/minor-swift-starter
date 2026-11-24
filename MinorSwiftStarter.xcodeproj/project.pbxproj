@@ -314,7 +314,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		AA0000000000000000000E01 /* XCRemoteSwiftPackageReference "MinorSwiftCore" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/novami/MinorSwiftCore.git";
+			repositoryURL = "https://github.com/novami/minor-swift-core.git";
 			requirement = {
 				kind = upToNextMinorVersion;
 				minimumVersion = 0.1.0;
